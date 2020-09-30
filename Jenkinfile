@@ -1,26 +1,23 @@
 pipeline {
   agent any 
-  stages {
-     stage (run backend) {
-       steps{
-             echo 'Hi this is first stage'
+       stages {
+         stage (run backend) {
+                          steps{
+                             echo 'Hi this is first stage'
+                   }
+               }
       stage (run backend) {
        steps{
              echo 'Hi this is first stage'
+                       }
+              }
       stage (run backend) {
        steps{
              echo 'Hi this is first stage'
+                      }
+             }
       stage (run backend) {
        steps{
              echo 'Hi this is first stage'
- 
-}        
-}
-}      
-}
-}
-}
-}
-}
-}
-}
+                     }
+            }
